@@ -6,6 +6,6 @@ This projects shows an implementation of the Kalman filter for linear state equa
 
 ### 1. Trajectory simulation and observation 
 
-In the script [utils.py], the code simulates a trajectory and generates observations based on a linear state-space. 
+In the script \.utils.py, the code simulates a trajectory and generates observations based on a linear state-space. 
 
 The [creer_trajectoire(F, Q, x_init, T)] function generates a trajectory of states over 𝑇 time steps using the following linear model:
