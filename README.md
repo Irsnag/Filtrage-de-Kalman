@@ -32,7 +32,7 @@ $$\mathbb{y_i} = \mathbb{f}(\mathsf{x_{i-1}}) + \mathbb{V_i}$$
 
 The non-linear measurements are based on angle and distance.
 
-### 3. Observation space
+### 3. Results
 
 The linear kalman filter can be found in [kalman_classique.py](kalman_classique.py) and the extended version in [kalman_extended.py](kalman_extended.py). You may modify the different parameters to see the results. 
 
