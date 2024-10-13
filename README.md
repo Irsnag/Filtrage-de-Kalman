@@ -10,8 +10,7 @@ In the script [utils.py](utils.py), the code simulates a trajectory and generate
 
 The function `creer_trajectoire(F, Q, x_init, T)` generates a trajectory of states over 𝑇 time steps using a linear model. 
 
-$$\mathbb{N} = \{ a \in \mathbb{Z} : a > 0 \}$$
-
+$$\mathsf{x}_i = \mathsf{F}\mathsf{x}_{i-1} + \mathsf{U}$$
 
 The function `creer_trajectoire(F, Q, x_init, T)` generates a trajectory of states over 𝑇 time steps using a non-linear model.
 
