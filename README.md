@@ -12,6 +12,9 @@ The function `creer_trajectoire(F, Q, x_init, T)` generates a trajectory of stat
 
 $$\mathsf{x}_i = \mathsf{F}\mathsf{x}_{i-1} + \mathsf{U}$$
 
+$$\mathbb{N} = \{ a \in \mathbb{Z} : a > 0 \}$$
+
+
 The function `creer_trajectoire(F, Q, x_init, T)` generates a trajectory of states over 𝑇 time steps using a non-linear model.
 
 ### 2. Trajectory simulation 
