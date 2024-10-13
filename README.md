@@ -8,14 +8,22 @@ This projects shows an implementation of the Kalman filter for linear state equa
 
 In the script [utils.py](utils.py), the code simulates a trajectory and generates observations based on a linear state-space. 
 
-The function `creer_trajectoire(F, Q, x_init, T)` generates a trajectory of states over 𝑇 time steps using a linear model. 
+The function `creer_trajectoire(F, Q, x_init, T)` generates a trajectory of states over 𝑇 time steps. 
 
-The function `creer_trajectoire(F, Q, x_init, T)` generates a trajectory of states over 𝑇 time steps using a non-linear model.
+The function `creer_trajectoire(F, Q, x_init, T)` generates a trajectory of states over 𝑇 time steps in the case of a radar.
 
 The transition equation is given by :
 
 $$\mathbb{x_i} = \mathbb{F}\mathsf{x_{i-1}} + \mathbb{U_i}$$
 
-Each state $$\mathbb{x_i}$$ gives the position and speed along the $$\mathbb{x}$$ and $$\mathbb{y}$$ axes. 
+Each hidden state $$\mathbb{x_i}$$ gives the position and speed along the $$\mathbb{x}$$ and $$\mathbb{y}$$ axes. 
 
-### 2. Trajectory simulation 
+### 2. Observation space
+
+The function `creer_observations(H,R,vecteur_x,T)` generates an observation based on a linear measurement model with Gaussian noise :
+
+$$\mathbb{y_i} = \mathbb{H}\mathsf{x_{i-1}} + \mathbb{V_i}$$
+
+The function `creer_observations_radar(H,R,vecteur_x,T)` generates an observation based on a linear measurement model with Gaussian noise :
+
+$$\mathbb{y_i} = \mathbb{f}(\mathsf{x_{i-1}}) + \mathbb{V_i}$$
