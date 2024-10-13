@@ -16,4 +16,6 @@ The transition equation is given by :
 
 $$\mathbb{x_i} = \mathbb{F}\mathsf{x_{i-1}} + \mathbb{U_i}$$
 
+Each state $$\mathbb{x_i}$$ gives the position and speed along the $$\mathbb{x}$$ and $$\mathbb{y}$$ axes. 
+
 ### 2. Trajectory simulation 
