@@ -40,6 +40,15 @@ The linear kalman filter can be found in [kalman_classique.py](kalman_classique.
 
 ![In the non-linear case :]([http://url/to/img.png](https://github.com/Irsnag/Filtrage-de-Kalman/blob/main/results/non-linear.png))
 
+ <table>
+  <tr>
+    <td valign="top"><img src="results/linear.png"></td>
+  </tr>
+  <tr>
+    <td valign="top"><img src="results/non-linear.png"></td>
+  </tr>
+ </table>
+
 
 
 
