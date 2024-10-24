@@ -39,14 +39,14 @@ The linear kalman filter can be found in [kalman_classique.py](kalman_classique.
 In the linear case :
  <table>
   <tr>
-    <td valign="top"><img src="results/linear.png"></td>
+    <td valign="center"><img src="results/linear.png"></td>
   </tr>
  </table>
 
  In the non-linear case :
  <table>
   <tr>
-    <td valign="top"><img src="results/non_linear.png"></td>
+    <td valign="center"><img src="results/non_linear.png"></td>
   </tr>
  </table>
 
