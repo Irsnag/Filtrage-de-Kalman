@@ -36,16 +36,17 @@ The non-linear measurements are based on angle and distance.
 
 The linear kalman filter can be found in [kalman_classique.py](kalman_classique.py) and the extended version in [kalman_extended.py](kalman_extended.py). You may modify the different parameters to see the results. 
 
-![In the linear case :]([http://url/to/img.png](https://github.com/Irsnag/Filtrage-de-Kalman/blob/main/results/linear.png))
-
-![In the non-linear case :]([http://url/to/img.png](https://github.com/Irsnag/Filtrage-de-Kalman/blob/main/results/non-linear.png))
-
+In the linear case :
  <table>
   <tr>
     <td valign="top"><img src="results/linear.png"></td>
   </tr>
+ </table>
+
+ In the non-linear case :
+ <table>
   <tr>
-    <td valign="top"><img src="results/non-linear.png"></td>
+    <td valign="top"><img src="results/non_linear.png"></td>
   </tr>
  </table>
 
